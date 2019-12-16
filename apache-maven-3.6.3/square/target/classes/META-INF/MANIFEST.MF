@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1576490735378
+Build-Jdk: 1.8.0_231
+Built-By: Raazu
+Bundle-Description: Camel using mutliple EIPs into a single solution
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Fabric8 :: Quickstarts :: Karaf :: Beginner :: Camel EIPs
+Bundle-SymbolicName: rapo.square
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: rapo;uses:="org.apache.camel.language";version="1.0.0.SN
+ APSHOT"
+Import-Package: org.apache.camel.language;version="[2.13,3)",org.osgi.se
+ rvice.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
